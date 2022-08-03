@@ -40,6 +40,7 @@ import java.lang.annotation.Target;
  */
 @Documented
 @Retention( RetentionPolicy.CLASS )
+@Target({ElementType.FIELD, ElementType.METHOD})
 @Inherited
 public @interface Parameter
 {
